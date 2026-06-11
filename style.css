@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+
+.logo {
+
+    width: 70px;
+    height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+              
+.floating {
+
+     animation: floating 3s ease-in-out infinite;
+}
+        
+@keyframes floating {
+        0% { transform: translate(0, 0px); }
+        50% { transform: translate(0, -15px); }
+        100% { transform: translate(0, 0px); }
+}
+        
+.sticky-navbar {
+
+    background-color: #fff !important;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.8) !important; 
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.8) !important;
+}
+
+.sticky-navbar a {
+color: #000 !important;
+}
+.sticky-navbar img {
+    width: 50px;
+}
+.img-personal {
+    width: 200px;
+}
+
+.step-item {
+  position: relative;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+ 
+}
+
+.step-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.step-item:last-child::after {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .step-item::after {
+    display: none;
+  }
+}
+
+.icon {
+    width: 80px;
+    height: auto;
+}
+
+/* card */
+a
+{
+    text-decoration: none;
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 0px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #000000;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #000000;
+}
+/* fine card */
+
+
+
+/* footer */
+
+.footer {
+    background: #000;
+    color: #ffffff;
+    padding: 70px 0 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.footer-about {
+    color: #a4b5c6;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.footer h5 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.footer h5::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 30px;
+    height: 2px;
+    background: #3498db;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #a4b5c6;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #3498db;
+    transform: translateX(5px);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #3498db;
+    transform: translateY(-3px);
+    color: #fff;
+}
+
+.footer-newsletter {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer-newsletter input {
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+    padding-right: 50px;
+}
+
+.footer-newsletter input::placeholder {
+    color: #a4b5c6;
+}
+
+.newsletter-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    width: 40px;
+    border-radius: 50%;
+    background: #3498db;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.newsletter-btn:hover {
+    background: #2980b9;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #a4b5c6;
+}
+
+.footer-bottom-links {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-bottom-links a {
+    color: #a4b5c6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        margin-bottom: 40px;
+    }
+}
+
+.height {
+    height: 400px !important;
+}

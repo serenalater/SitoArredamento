@@ -1,0 +1,42 @@
+<?php include 'header.php' ?>
+<div class="position-relative w-100 bg-dark height" style="background-image: url(./img/chisiamo-bg.jpg); background-size: cover; background-position: center center;">
+    
+</div>
+<main>
+
+
+    <h2>Contatti</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, reprehenderit necessitatibus possimus sequi, mollitia sit nemo eveniet corporis laboriosam quibusdam voluptatem consequatur delectus accusamus itaque. Repudiandae autem laborum sit soluta.</p>
+    <div class="container">
+    <h2 class="text-center">Login</h2>
+    <div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Login</h4>
+                </div>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+<?php include 'footer.php' ?>
