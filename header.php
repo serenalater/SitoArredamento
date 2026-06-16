@@ -36,7 +36,7 @@
                                 <a class="nav-link text-light" href="prodotti.php">Prodotti</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="contatti.php"><i class="fa-solid fa-user"></i></a>
+                                <a class="nav-link text-light" href="account.php"><i class="fa-solid fa-user"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="contatti.php"><i class="fa-solid fa-bag-shopping"></i></a>
